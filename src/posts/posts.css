@@ -1,0 +1,13 @@
+.post-wrapper {
+    width: 300px;
+    font-size: 16px;
+    padding: 20px;
+    border: 1px dashed #2e2e2e;
+}
+
+.post-author{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0074d9;
+    margin-bottom: 10px;
+}
