@@ -17,11 +17,11 @@ export default class LikesCounter extends Component {
     }
 
     shouldComponentUpdate(nextProps, nextState){
-        if(nextProps.count.toString().slice(-1) === '0'){
-            return true;
-        }
-        return false;
-        // return !(nextProps.count % 10);
+        // if(nextProps.count.toString().slice(-1) === '0'){
+        //     return true;
+        // }
+        // return false;
+        return !(nextProps.count % 10);
     }
 
     // componentDidMount(){
