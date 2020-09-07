@@ -14,6 +14,8 @@ export default class LikesCounter extends Component {
         const {isActive} = this.state;
         const {count} = this.props;
         return count + (isActive ? 1 : 0);
+
+        
     }
 
     shouldComponentUpdate(nextProps, nextState){
